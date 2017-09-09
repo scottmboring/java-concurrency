@@ -21,6 +21,7 @@ Multiple threads of execution at the same time which results in an upredictable 
       1. check-then-act (example: lazy initialization)
       2. read-modify-write (example: incrementing a value)
 2. Lock mismatch - same lock needed for accessing data
+3. 2-byte operations (Long vs Int)
       
 ## Concept
 
